@@ -1,0 +1,52 @@
+# Ignore environment files
+.env
+*.env
+
+# Ignore Python files and directories
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ignore Django migrations
+notes/**/migrations/*
+
+api/**/migrations/*
+!api/**/migrations/__init__.py
+
+
+# Ignore virtual environment
+env/
+*.venv/
+*.virtualenv/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore Git-specific files
+.git/
+*.log
+
+# Ignore compiled code
+*.so
+
+# Ignore any unnecessary coverage and temporary files
+*.coverage
+*.coverage.*
+
+# Optional: Ignore other temp or backup files
+*.swp
+*.bak
+*.tmp
+~$*
+
+# Ignore test snapshots
+*.snap
+
+# Ignore static and media files (if generated locally)
+notes/staticfiles/
+notes/media/
